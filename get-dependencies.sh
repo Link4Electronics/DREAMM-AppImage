@@ -21,7 +21,7 @@ get-debloated-pkgs --add-common --prefer-nano
 echo "Getting app..."
 echo "---------------------------------------------------------------"
 case "$ARCH" in # they use AMD64 and ARM64 for the deb links
-	x86_64)  deb_arch=amd64;;
+	x86_64)  deb_arch=x64;;
 	aarch64) deb_arch=arm64;;
 esac
 VERSION=4.0  > ~/version
