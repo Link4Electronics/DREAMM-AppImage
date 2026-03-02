@@ -8,6 +8,7 @@ echo "Installing package dependencies..."
 echo "---------------------------------------------------------------"
 pacman -Syu --noconfirm \
 	alsa-utils \
+	fluidsynth \
     libdecor 	   \
 	pipewire-audio \
 	pipewire-alsa  \
