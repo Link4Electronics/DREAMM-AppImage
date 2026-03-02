@@ -7,6 +7,8 @@ ARCH=$(uname -m)
 echo "Installing package dependencies..."
 echo "---------------------------------------------------------------"
 pacman -Syu --noconfirm \
+	alsa-lib \
+	alsa-utils \
     libdecor 	   \
     sdl2
 
