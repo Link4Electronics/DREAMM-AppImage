@@ -7,9 +7,10 @@ ARCH=$(uname -m)
 echo "Installing package dependencies..."
 echo "---------------------------------------------------------------"
 pacman -Syu --noconfirm \
-	alsa-lib \
 	alsa-utils \
     libdecor 	   \
+	pipewire-audio \
+	pipewire-alsa  \
     sdl2
 
 echo "Installing debloated packages..."
